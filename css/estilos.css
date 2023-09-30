@@ -1,0 +1,110 @@
+.custom-button {
+    color: white;
+    border-color: white;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    right: 0; /* Ubicar a la derecha */
+    top: 50%; /* Centrar verticalmente */
+    transform: translateY(-50%);
+    text-align: right; /* Alineación a la derecha */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 20px; /* Espaciado interno */
+    width: 40%; /* Ancho del área de texto */
+  }
+  
+  .carousel-caption p {
+    text-align: right;
+    margin-bottom: 0; /* Eliminar el margen inferior del párrafo */
+    color: #fff; /* Color del texto */
+  }
+  
+  #carouselExampleCaptions .carousel-inner {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente oscuro */
+  }
+  
+  #carouselExampleCaptions .carousel-caption {
+    text-align: left; /* Alineación a la izquierda */
+    padding: 20px; /* Espaciado interno */
+    width: 40%; /* Ancho del área de texto */
+  }
+  
+  #carouselExampleCaptions .carousel-caption p {
+    margin-bottom: 0; /* Eliminar el margen inferior del párrafo */
+    color: #fff; /* Color del texto */
+  }
+
+  .carousel-inner {
+    text-align: right;
+  }
+  
+.carousel-item {
+    text-align: right;
+  }
+  
+  .form-group p {
+    text-align: left;
+  }
+
+  .logo {
+    width: 100px; /* Ajusta el ancho según tu preferencia */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+  }
+
+  .verde {
+    color: green;
+  }
+
+  /* Estilo para el botón transparente con bordes y texto blancos */
+.btn-transparent-white {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px; /* Ajusta el espaciado según sea necesario */
+  }
+
+  /* Estilo para el botón con fondo verde y texto blanco */
+.btn-green-white {
+    background-color: green;
+    color: white;
+    /* Puedes ajustar otros estilos según tus preferencias */
+  }
+
+  .btn-orange {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+  }
+
+  .btn-blue {
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn-gris {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+  }
+  .btn-rojo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+
+  .no-margin {
+    margin: 0;
+    padding: 0;
+  }
+
+  .custom-margin {
+    margin-bottom: 1px;
+};
+    
+    
+
+
+  
