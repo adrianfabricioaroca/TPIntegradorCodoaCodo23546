@@ -5,34 +5,35 @@
   
   .carousel-caption {
     position: absolute;
-    right: 0; /* Ubicar a la derecha */
-    top: 50%; /* Centrar verticalmente */
+    right: 0;  /*Ubicar a la derecha */
+    /* left: 0; */
+    top: 40%; /* Centrar verticalmente */
     transform: translateY(-50%);
     text-align: right; /* Alineación a la derecha */
     background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
-    padding: 20px; /* Espaciado interno */
+    padding: 10px; /* Espaciado interno */
     width: 40%; /* Ancho del área de texto */
   }
   
   .carousel-caption p {
     text-align: right;
-    margin-bottom: 0; /* Eliminar el margen inferior del párrafo */
-    color: #fff; /* Color del texto */
+    margin-bottom: 0; 
+    color: #fff; 
   }
   
   #carouselExampleCaptions .carousel-inner {
-    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente oscuro */
+    background: rgba(0, 0, 0, 0.5); 
   }
   
-  #carouselExampleCaptions .carousel-caption {
-    text-align: left; /* Alineación a la izquierda */
-    padding: 20px; /* Espaciado interno */
-    width: 40%; /* Ancho del área de texto */
+  #carouselExampleCaptions.carousel-caption {
+    text-align: right; 
+    padding: 20px; 
+    width: 40%; 
   }
   
-  #carouselExampleCaptions .carousel-caption p {
-    margin-bottom: 0; /* Eliminar el margen inferior del párrafo */
-    color: #fff; /* Color del texto */
+  #carouselExampleCaptions.carousel-caption p {
+    margin-bottom: 0; 
+    color: #fff; 
   }
 
   .carousel-inner {
@@ -48,28 +49,29 @@
   }
 
   .logo {
-    width: 100px; /* Ajusta el ancho según tu preferencia */
-    height: auto; /* Mantiene la proporción de aspecto original */
-    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
   }
 
-  .verde {
-    color: green;
-  }
+  /* .verde {
+    color: green !important;
+  } */
 
-  /* Estilo para el botón transparente con bordes y texto blancos */
+  .verde .nav-link {
+    color: green !important;
+}
+
 .btn-transparent-white {
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    padding: 5px 10px; /* Ajusta el espaciado según sea necesario */
+    padding: 5px 10px; 
   }
 
-  /* Estilo para el botón con fondo verde y texto blanco */
 .btn-green-white {
     background-color: green;
     color: white;
-    /* Puedes ajustar otros estilos según tus preferencias */
   }
 
   .btn-orange {
